@@ -9,9 +9,11 @@ module.exports = function (sequelize, Sequelize) {
             type: Sequelize.STRING,
             validate: { notEmpty: true, }
         },
+        content: {
+            type: Sequelize.STRING(2500),
+            validate: { notEmpty: true, }
+        },
         context: { type: Sequelize.STRING(500), },
-        place: { type: Sequelize.STRING(500), },
-        organizedBy: { type: Sequelize.STRING(500), },
     });
 
     return events;
