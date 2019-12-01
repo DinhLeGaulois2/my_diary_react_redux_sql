@@ -1,1 +1,3 @@
-# my_diary_react_redux_sql
+# My Diary - React-Redux and SQL
+
+![alt text](assets/schema.jpg)

@@ -1,15 +1,12 @@
 module.exports = function (sequelize, Sequelize) {
-    const bookmarks = sequelize.define("Bookmarks", {
+    const self = sequelize.define("Self", {
         id: {
             type: Sequelize.UUID,
             defaultValue: Sequelize.UUIDV4,
             primaryKey: true
         },
-        title: {
-            type: Sequelize.STRING,
-            validate: { notEmpty: true, }
-        },
+        domain: { type: Sequelize.STRING, },
     });
 
-    return bookmarks;
+    return self;
 }
