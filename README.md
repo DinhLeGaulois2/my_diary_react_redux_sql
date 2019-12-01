@@ -1,3 +1,3 @@
 # My Diary - React-Redux and SQL
 
-![alt text](assets/schema.jpg)
+![alt text](./client/public/assets/schema.jpg)
